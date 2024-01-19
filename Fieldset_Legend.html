@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meuteste.css">
+    <title>Meus teste</title>
+</head>
+<body>
+
+    <h1>Bem-Vindo(a)</h1>
+    <p>Preencha os Dados para Prosseguir</p>
+    
+    <form action="cadastro.html" method="get">
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <label>
+                Nome: <br>
+                <input type="text" name="name" required minlength="8">
+            </label><br>
+
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname" maxlength="20">
+            </label><br>
+
+            <label>
+                E-mail: <br>
+                <input type="email" name="lastname" required title="Endereço de Email">
+            </label><br>
+
+            <label>
+                Idade: <br>
+                <input type="number" name="age" min="18" max="120">
+            </label><br>
+
+            <label>
+                Data de Nascimento: <br>
+                <input type="date" name="birthdate" min="2020-01-01" max="2024-01-18">
+            </label><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <label>
+                Nome da Empresa: <br>
+                <input type="text" required minlength="3" maxlength="40">
+            </label><br>
+
+            <label>
+                Cargo na Empresa: <br>
+                <input type="text">
+            </label><br>
+
+        </fieldset>
+
+        <label id="termos">
+            <input type="checkbox" name="terms" required title="Para seguir, você deve marcar esta caixa">Eu li e aceito os <a href="termos_golpe.html" id="termos_link" target="_blank">Termos</a>
+        </label>
+
+        <input type="submit" name="send" value="Cadastrar" id="send">
+
+    </form>
+
+</body>
+</html>

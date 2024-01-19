@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.caixa_texto {
+    color: white;
+    width: 600px;
+    border: 2px solid blueviolet;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

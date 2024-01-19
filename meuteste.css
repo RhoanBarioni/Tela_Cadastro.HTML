@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+}
+
+fieldset {
+    background-color: #eee;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    width: 400px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+legend {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+input {
+    outline: 0;
+    font-size: 15px;
+}
+
+#termos {
+    background-color: #eee;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    margin: 10px auto;
+}
+
+#termos_link {
+    color: blueviolet;
+    text-decoration: none;
+    margin: 1px;
+}
+
+#termos_link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#send {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 1px auto;
+    outline: 0;
+    text-decoration: none;
+}
+
+#send:hover {
+    background-color: rgb(201, 201, 201);
+    outline: 0;
+    text-decoration: none;
+}
